@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style></style>
+  <body>
+    <h1>User Directory</h1>
+    <form>
+        <label for="emp_num">
+            # of Employees
+            <input id="emp_num" type="number" required min="1" max="50" />
+        </label>
+        <label for="emp_nat">
+            Select Nationality:
+            <select id="emp_nat">
+                <option value="">Select a Country</option>
+            </select>
+        </label>
+        <button>Get Users</button>
+    </form>
+
+    <div id="emp_container"></div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

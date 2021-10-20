@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+#emp_container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.user_card{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    border: 2px dotted red;
+}
